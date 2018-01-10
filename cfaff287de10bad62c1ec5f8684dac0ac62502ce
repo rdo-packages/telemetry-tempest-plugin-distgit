@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa963961_3c3171ed",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2018-01-10T22:02:04Z",
+      "side": 1,
+      "message": "Why does it need Epoch: 1 ?",
+      "revId": "cfaff287de10bad62c1ec5f8684dac0ac62502ce",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
