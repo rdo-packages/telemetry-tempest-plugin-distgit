@@ -16,6 +16,24 @@
       "revId": "cfaff287de10bad62c1ec5f8684dac0ac62502ce",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa963961_1ce90d1b",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-01-11T03:41:05Z",
+      "side": 1,
+      "message": "@apevec, it is copied from my sample spec template, Thanks for catching it, It is not needed here. Removing it.",
+      "parentUuid": "fa963961_3c3171ed",
+      "revId": "cfaff287de10bad62c1ec5f8684dac0ac62502ce",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
