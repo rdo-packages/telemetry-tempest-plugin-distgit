@@ -45,6 +45,7 @@ Requires:   python-oslo-config
 Requires:   python-oslo-utils
 Requires:   python-gabbi
 Requires:   python-ujson
+Requires:   python-heat-tests-tempest
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
