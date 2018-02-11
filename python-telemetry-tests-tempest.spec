@@ -35,17 +35,17 @@ BuildRequires:  openstack-macros
 Summary: %{summary}
 %{?python_provide:%python_provide python2-%{service}-tests-tempest}
 BuildRequires:  python2-devel
-BuildRequires:  python-pbr
-BuildRequires:  python-setuptools
+BuildRequires:  python2-pbr
+BuildRequires:  python2-setuptools
 
-Requires:   python-pbr
-Requires:   python-six
-Requires:   python-tempest
-Requires:   python-oslo-config
-Requires:   python-oslo-utils
-Requires:   python-gabbi
-Requires:   python-ujson
-Requires:   python-heat-tests-tempest
+Requires:   python2-pbr >= 2.0.0
+Requires:   python2-six >= 1.10.0
+Requires:   python2-tempest >= 1:17.1.0
+Requires:   python2-oslo-config >= 1.28.0
+Requires:   python2-oslo-utils >= 3.33.0
+Requires:   python2-gabbi >= 1.33.0
+Requires:   python2-ujson >= 1.35
+Requires:   python2-heat-tests-tempest
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
@@ -54,8 +54,8 @@ Requires:   python-heat-tests-tempest
 %package -n python-%{service}-tests-tempest-doc
 Summary:        python-%{service}-tests-tempest documentation
 
-BuildRequires:  python-sphinx
-BuildRequires:  python-openstackdocstheme
+BuildRequires:  python2-sphinx
+BuildRequires:  python2-openstackdocstheme
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the telemetry tempest plugin.
@@ -69,13 +69,14 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
-Requires:   python3-pbr
-Requires:   python3-six
-Requires:   python3-tempest
-Requires:   python3-oslo-config
-Requires:   python3-oslo-utils
-Requires:   python3-gabbi
-Requires:   python3-ujson
+Requires:   python2-pbr >= 2.0.0
+Requires:   python2-six >= 1.10.0
+Requires:   python2-tempest >= 1:17.1.0
+Requires:   python2-oslo-config >= 1.28.0
+Requires:   python2-oslo-utils >= 3.33.0
+Requires:   python2-gabbi >= 1.33.0
+Requires:   python2-ujson >= 1.35
+Requires:   python2-heat-tests-tempest
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
