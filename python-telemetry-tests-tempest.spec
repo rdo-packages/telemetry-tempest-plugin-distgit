@@ -38,6 +38,11 @@ BuildRequires:  python2-devel
 BuildRequires:  python2-pbr
 BuildRequires:  python2-setuptools
 
+Requires:   python-panko-tests < 4.0.0
+Requires:   python-gnocchi-tests < 4.2.0
+Requires:   python-aodh-tests < 6.0.0
+Requires:   python-ceilometer-tests < 10.0.0
+
 Requires:   python2-pbr >= 2.0.0
 Requires:   python2-six >= 1.10.0
 Requires:   python2-tempest >= 1:17.1.0
