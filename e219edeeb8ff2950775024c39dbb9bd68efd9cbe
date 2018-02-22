@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aaa499b_98be34fe",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-02-22T09:53:58Z",
+      "side": 1,
+      "message": "I see a side effect for this, these -tests packages still exist with unit tests. If a user has python-panko-tests to run unit tests in pike and tries updates to queens, they will get telemetry-tests-tempests installed, which is not what they want, is this correct?",
+      "revId": "e219edeeb8ff2950775024c39dbb9bd68efd9cbe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aaa499b_b8c1f082",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-02-22T09:53:58Z",
+      "side": 1,
+      "message": "About obsoleted versions, i think this should obsolete versions in pike and before so:\n\npython-panko-tests \u003c 4.0.0\npython-gnocchi-tests \u003c 4.2.0\npython-aodh-tests \u003c 6.0.0\npython-ceilometer-tests \u003c 10.0.0",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 43
+      },
+      "revId": "e219edeeb8ff2950775024c39dbb9bd68efd9cbe",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
