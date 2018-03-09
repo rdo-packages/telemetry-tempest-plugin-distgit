@@ -27,7 +27,7 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Release:    0.2%{?alphatag}%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -48,6 +48,13 @@ Summary: %{summary}
 BuildRequires:  python2-devel
 BuildRequires:  python2-pbr
 BuildRequires:  python2-setuptools
+
+Obsoletes:   python-panko-tests < 4.0.0
+Obsoletes:   python-gnocchi-tests < 4.2.0
+Obsoletes:   python-aodh-tests < 6.0.0
+Obsoletes:   python-ceilometer-tests < 10.0.0
+
+Provides:   python2-%{service}-tests-tempest = %{version}-%{release}
 
 Requires:   python2-pbr >= 2.0.0
 Requires:   python2-six >= 1.10.0
@@ -141,5 +148,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Mar 09 2017 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.2.dbd432ecgit
+- Added obsoletes to older telemetry tempest plugins
+
 * Fri Feb 16 2017 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.dbd432ecgit
 - Update to pre-release 0.0.1 (dbd432ecdf46182db391226019e56fa572ae7978)
