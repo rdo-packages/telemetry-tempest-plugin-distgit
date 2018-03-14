@@ -46,6 +46,30 @@
       "revId": "49f807a1050ec06c96ed585e22ea6deb9bd05fa9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_fd3bfa9a",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-14T17:33:41Z",
+      "side": 1,
+      "message": "I still don\u0027t understand provides ... \u003e\u003d . IMO, provides should be a fixed version",
+      "parentUuid": "1ab14d0d_9dc4f692",
+      "range": {
+        "startLine": 57,
+        "startChar": 30,
+        "endLine": 57,
+        "endChar": 34
+      },
+      "revId": "49f807a1050ec06c96ed585e22ea6deb9bd05fa9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
