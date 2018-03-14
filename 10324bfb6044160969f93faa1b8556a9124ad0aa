@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ab14d0d_fd62daac",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-14T18:26:12Z",
+      "side": 1,
+      "message": "In my opinion this is the correct way",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 45
+      },
+      "revId": "10324bfb6044160969f93faa1b8556a9124ad0aa",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_dd571ec9",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-14T18:26:12Z",
+      "side": 1,
+      "message": "I\u0027d totally remove the provides.",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 46
+      },
+      "revId": "10324bfb6044160969f93faa1b8556a9124ad0aa",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
