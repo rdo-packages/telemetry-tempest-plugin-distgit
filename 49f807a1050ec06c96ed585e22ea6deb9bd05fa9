@@ -22,6 +22,30 @@
       "revId": "49f807a1050ec06c96ed585e22ea6deb9bd05fa9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_9dc4f692",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-03-14T17:20:16Z",
+      "side": 1,
+      "message": "By keeping a specific version, it will keep the unit test package as well as new tempest package also.",
+      "parentUuid": "1ab14d0d_3de4c239",
+      "range": {
+        "startLine": 57,
+        "startChar": 30,
+        "endLine": 57,
+        "endChar": 34
+      },
+      "revId": "49f807a1050ec06c96ed585e22ea6deb9bd05fa9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
