@@ -16,6 +16,24 @@
       "revId": "74840adea351ae325b08252938c08d7375fa0dec",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_3d4602c0",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 13
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-03-15T08:55:14Z",
+      "side": 1,
+      "message": "From last night discussion with amoralej, we need obsoletes only https://review.rdoproject.org/r/#/c/12856/4/, if user wants to install unit test packages they can install seperately. Discussion from last night: http://eavesdrop.openstack.org/irclogs/%23rdo/%23rdo.2018-03-14.log.html#t2018-03-14T18:29:32",
+      "parentUuid": "1ab14d0d_9d3f5625",
+      "revId": "74840adea351ae325b08252938c08d7375fa0dec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
