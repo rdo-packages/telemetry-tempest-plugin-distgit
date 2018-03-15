@@ -34,6 +34,24 @@
       "revId": "74840adea351ae325b08252938c08d7375fa0dec",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_1d7906fd",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 13
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-15T09:29:24Z",
+      "side": 1,
+      "message": "why?, note that in this case, old packages still exist python-panko-tests, python-gnocchi-tests, etc... so if other package or a user needs unit tests, they need to install them, and I think that adding a provides here will break it.",
+      "parentUuid": "1ab14d0d_9d3f5625",
+      "revId": "74840adea351ae325b08252938c08d7375fa0dec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
