@@ -52,7 +52,7 @@ BuildRequires:  python2-setuptools
 Obsoletes:   python-panko-tests < 4.0.0
 Obsoletes:   python-gnocchi-tests < 4.2.0
 Obsoletes:   python-aodh-tests < 6.0.0
-Obsoletes:   python-ceilometer-tests < 10.0.0
+Obsoletes:   python-ceilometer-tests < 1:10.0.0
 
 Requires:   python2-pbr >= 2.0.0
 Requires:   python2-six >= 1.10.0
