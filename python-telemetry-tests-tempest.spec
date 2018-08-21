@@ -43,12 +43,12 @@ Obsoletes:   python-gnocchi-tests < 4.2.0
 Obsoletes:   python-aodh-tests < 6.0.0
 Obsoletes:   python-ceilometer-tests < 1:10.0.0
 
-Requires:   python2-pbr >= 2.0.0
+Requires:   python2-pbr >= 3.1.1
 Requires:   python2-six >= 1.10.0
-Requires:   python2-tempest >= 1:17.1.0
-Requires:   python2-oslo-config >= 1.28.0
+Requires:   python2-tempest >= 1:18.0.0
+Requires:   python2-oslo-config >= 2:5.2.0
 Requires:   python2-oslo-utils >= 3.33.0
-Requires:   python2-gabbi >= 1.33.0
+Requires:   python2-gabbi >= 1.42.1
 Requires:   python2-ujson >= 1.35
 Requires:   python2-heat-tests-tempest
 
@@ -74,12 +74,12 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
-Requires:   python3-pbr >= 2.0.0
+Requires:   python3-pbr >= 3.1.1
 Requires:   python3-six >= 1.10.0
-Requires:   python3-tempest >= 1:17.1.0
-Requires:   python3-oslo-config >= 1.28.0
+Requires:   python3-tempest >= 1:18.0.0
+Requires:   python3-oslo-config >= 2:5.2.0
 Requires:   python3-oslo-utils >= 3.33.0
-Requires:   python3-gabbi >= 1.33.0
+Requires:   python3-gabbi >= 1.42.1
 Requires:   python3-ujson >= 1.35
 Requires:   python3-heat-tests-tempest
 
