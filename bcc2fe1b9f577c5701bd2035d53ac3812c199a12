@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59733bb3_e7398d48",
+        "filename": "python-telemetry-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2019-02-22T18:09:21Z",
+      "side": 1,
+      "message": "This line should be:\n\n%{!?upstream_version: %global upstream_version %{version}%{?milestone}}",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 57
+      },
+      "revId": "bcc2fe1b9f577c5701bd2035d53ac3812c199a12",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
