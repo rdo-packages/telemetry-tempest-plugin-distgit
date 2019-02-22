@@ -26,8 +26,8 @@ Additionally it provides a plugin to automatically load these tests\
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Version:    0.2.0
+Release:    1%{?alphatag}%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -146,5 +146,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Feb 22 2019 RDO <dev@lists.rdoproject.org> 0.2.0-1.dbd432egit
+- Update to 0.2.0
+
 * Fri Feb 16 2017 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.dbd432ecgit
 - Update to pre-release 0.0.1 (dbd432ecdf46182db391226019e56fa572ae7978)
