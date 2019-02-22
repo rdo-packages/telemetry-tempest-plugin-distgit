@@ -1,8 +1,4 @@
-%{!?upstream_version: %global upstream_version %{commit}}
-%global commit dbd432ecdf46182db391226019e56fa572ae7978
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-# DO NOT REMOVE ALPHATAG
-%global alphatag .%{shortcommit}git
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global service telemetry
 %global plugin telemetry-tempest-plugin
@@ -14,25 +10,19 @@
 %global with_python3 1
 %endif
 
-%if 0%{?dlrn}
-%define tarsources %module
-%else
-%define tarsources %plugin
-%endif
-
 %global common_desc \
 This package contains Tempest tests to cover the telemetry projects. \
 Additionally it provides a plugin to automatically load these tests\
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Version:    0.2.0
+Release:    1%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
 
-Source0:    https://github.com/openstack/%{plugin}/archive/%{commit}.tar.gz#/%{plugin}-%{shortcommit}.tar.gz
+Source0:    http://tarballs.openstack.org/%{plugin}/%{module}-%{upstream_version}.tar.gz
 
 BuildArch:  noarch
 
@@ -99,7 +89,7 @@ Requires:   python3-heat-tests-tempest
 %endif
 
 %prep
-%autosetup -n %{tarsources}-%{upstream_version} -S git
+%autosetup -n %{module}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
@@ -146,5 +136,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Feb 22 2019 Chandan Kumar <chkumar@redhat.com> 0.2.0-1
+- Bump to version 0.2.0
+
 * Fri Feb 16 2017 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.dbd432ecgit
 - Update to pre-release 0.0.1 (dbd432ecdf46182db391226019e56fa572ae7978)
