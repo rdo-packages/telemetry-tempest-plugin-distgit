@@ -107,3 +107,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/telemetry-tempest-plugin/commit/?id=97df0116460541bd76902d1d0de83ebb86fd2234
