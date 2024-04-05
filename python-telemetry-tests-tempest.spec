@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815afec729392386480e076dcc0dfe2d21c023c9
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %global service telemetry
 %global plugin telemetry-tempest-plugin
 %global module telemetry_tempest_plugin
@@ -13,7 +13,7 @@ Additionally it provides a plugin to automatically load these tests\
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    1.10.0
+Version:    2.0.0
 Release:    1%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    ASL 2.0
@@ -112,6 +112,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Apr 05 2024 RDO <dev@lists.rdoproject.org> 2.0.0-1
+- Update to 2.0.0
+
 * Wed Jan 31 2024 RDO <dev@lists.rdoproject.org> 1.10.0-1
 - Update to 1.10.0
 
