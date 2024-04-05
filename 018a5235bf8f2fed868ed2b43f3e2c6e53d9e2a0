@@ -1,0 +1,8 @@
+Workflow+1: Luigi Toscano <ltoscano@redhat.com>
+Code-Review+2: Luigi Toscano <ltoscano@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 05 Apr 2024 13:27:41 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/telemetry-tempest-plugin-distgit/+/52707
+Project: openstack/telemetry-tempest-plugin-distgit
+Branch: refs/heads/bobcat-rdo
