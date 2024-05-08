@@ -33,6 +33,24 @@
       "message": "Bobcat has the -2 release, if we want to make sure we always upgrade, we then need to bump the release to -3 here.",
       "revId": "e0ee67ddedea9a313be44b7fb2e0aa36d1c0f48a",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41f8d424_ca58a235",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-05-08T08:27:46Z",
+      "side": 1,
+      "message": "Actually, this will be just crosstagging build in bobcat (automation realizes that it\u0027s same nvr and cross tag it instead of doing a new build). This is on purpose this time as there is no relevant difference in the spec from bobcat to caracal",
+      "parentUuid": "f52600ad_32c46d78",
+      "revId": "e0ee67ddedea9a313be44b7fb2e0aa36d1c0f48a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
