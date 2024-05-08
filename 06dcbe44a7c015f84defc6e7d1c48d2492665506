@@ -1,0 +1,9 @@
+Code-Review+2: Matthias Runge <mrunge@matthias-runge.de>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 08 May 2024 08:50:36 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/telemetry-tempest-plugin-distgit/+/53113
+Project: openstack/telemetry-tempest-plugin-distgit
+Branch: refs/heads/bobcat-rdo
