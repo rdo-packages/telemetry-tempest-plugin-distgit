@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b8c8c4f_cda0dde3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-06-25T07:33:10Z",
+      "side": 1,
+      "message": "release should be bumped to 3",
+      "revId": "ac23fd33b91a5adc1d0d2cc0a3d9c00b312c3a12",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
