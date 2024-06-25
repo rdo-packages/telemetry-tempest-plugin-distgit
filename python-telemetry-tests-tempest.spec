@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %global service telemetry
 %global plugin telemetry-tempest-plugin
 %global module telemetry_tempest_plugin
@@ -19,8 +19,8 @@ Additionally it provides a plugin to automatically load these tests\
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    2.0.0
-Release:    1%{?dist}
+Version:    2.2.0
+Release:    3%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    Apache-2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -120,6 +120,15 @@ rm -rf doc/build/html/.{doctrees,buildinfo} doc/build/html/objects.inv
 %endif
 
 %changelog
+* Wed Jul 26 2024 RDO <dev@lists.rdoproject.org> 2.2.0-3
+- Rebuild in Caracal
+
+* Wed Jul 26 2024 RDO <dev@lists.rdoproject.org> 2.2.0-2
+- Rebuild in Bobcat
+
+* Tue Jun 25 2024 RDO <dev@lists.rdoproject.org> 2.2.0-1
+- Update to 2.2.0
+
 * Fri Mar 22 2024 RDO <dev@lists.rdoproject.org> 2.0.0-1
 - Update to 2.0.0
 
