@@ -13,7 +13,7 @@ Additionally it provides a plugin to automatically load these tests\
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    2.4.0
+Version:    2.5.1
 Release:    1%{?dist}
 Summary:    Tempest Integration of Telemetry Project
 License:    ASL 2.0
@@ -112,6 +112,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Tue Jun 03 2025 RDO <dev@lists.rdoproject.org> 2.5.1-1
+- Update to 2.5.1
+
 * Mon Dec 02 2024 RDO <dev@lists.rdoproject.org> 2.4.0-1
 - Update to 2.4.0
 
