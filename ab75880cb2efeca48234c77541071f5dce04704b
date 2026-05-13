@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "ab75880cb2efeca48234c77541071f5dce04704b",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c55a1661_e0b1bfe6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2026-05-13T12:21:04Z",
+      "side": 1,
+      "message": "026-05-12 09:34:18.479432 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-devel-3.12.13-2.el10.x86_64 is already installed.\n2026-05-12 09:34:18.479478 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:No matching package to install: \u0027python3dist(gabbi) \u003e\u003d 4\u0027\n2026-05-12 09:34:18.479564 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-packaging-24.2-2.el10.noarch is already installed.\n2026-05-12 09:34:18.479624 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-pbr-6.1.1-1.el10s.noarch is already installed.\n2026-05-12 09:34:18.479642 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-pbr-6.1.1-1.el10s.noarch is already installed.\n2026-05-12 09:34:18.479677 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-pbr-6.1.1-1.el10s.noarch is already installed.\n2026-05-12 09:34:18.479716 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-pip-23.3.2-7.el10.noarch is already installed.\n2026-05-12 09:34:18.479754 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package tox-4.21.2-3.el10s.noarch is already installed.\n2026-05-12 09:34:18.479794 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Package python3-tox-current-env-0.0.16-1.el10s.noarch is already installed.\n2026-05-12 09:34:18.479841 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Not all dependencies satisfied\n2026-05-12 09:34:18.479881 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:Error: Some packages could not be found.\n2026-05-12 09:34:18.479923 | rdo-centos-10-stream | 2026-05-12 09:34:18,479 INFO:dlrn-build-mock:",
+      "revId": "ab75880cb2efeca48234c77541071f5dce04704b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
